@@ -67,10 +67,10 @@ body {
 .menu a {
   padding: 10px 15px;
   text-decoration: none;
-
   color: #242424;
 }
-.menu .objednavka {
+a:hover,
+a:focus {
   background-color: #f195b2;
   color: white;
   border-radius: 20px;
@@ -94,7 +94,7 @@ body {
 .nadpisHero {
   margin-top: 0;
   padding-top: 80px;
-line-height: 1.25;
+  line-height: 1.25;
   font-family: "Playfair Display", serif;
   font-size: 52px;
 }
@@ -108,110 +108,109 @@ line-height: 1.25;
 /*--------Vítejte v naší cukrárně------------*/
 
 .vitejte {
-	background-color: rgb(205, 234, 234);
-	padding-top: 80px;
-	padding-bottom: 80px;
+  background-color: rgb(205, 234, 234);
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .sloupce {
-	display: flex;
-	background-color: white;
+  display: flex;
+  background-color: white;
 }
 
 .levy {
-	padding-right: 30px;
-	
-	
+  padding-right: 30px;
 }
 .nadpisy2 {
-	font-size: 36px;
-	font-family: "Playfair Display", serif;
-	color: #3e606b;
-	line-height: 1.25;
-
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  color: #3e606b;
+  line-height: 1.25;
 }
 .odstavec {
-	padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .tlacitko {
-	color: white;
-	background-color: #f195b2;
-	padding: 15px 40px 15px 40px;
-	text-decoration: none;
-	border-radius: 30px;
-	
+  color: white;
+  background-color: #f195b2;
+  padding: 15px 40px 15px 40px;
+  text-decoration: none;
+  border-radius: 30px;
 }
 
 .tlacitko:hover,
 .tlacitko:focus {
-	background-color: #d2567d;
+  background-color: #d2567d;
 }
 
 .cukrarka {
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
 /*---------Dnešní nabídka------------*/
 
 .pozadi {
-	background-color:#f0f0f0;
-	padding-bottom: 80px;
+  background-color: #f0f0f0;
+  padding-bottom: 80px;
 }
 
 .nabidka {
-	margin-top: 0;
-	padding-top: 80px;
-	
+  margin-top: 0;
+  padding-top: 80px;
 }
 .produkty {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .produkt {
-	
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	border-radius: 5px;
-	background-color: white;
-	flex: 0 0 calc((100% - 90px) / 4);
-	
-	
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+  flex: 0 0 calc((100% - 90px) / 4);
 }
 
 .popis {
-	padding: 20px 0 20px 0;
-	text-align: center;
-	
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .fotky {
-	border-radius: 5px 5px 0 0;
-	max-width: 100%;
-	
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+}
+.nadpisy3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #3e606b;
+}
+
+.popis p {
+  margin-bottom: 0;
 }
 
 /*Náš přístup k pečení*/
 .pristup {
-	padding-top: 80px;
-	padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .peceni {
-	border-radius: 5px;
+  border-radius: 5px;
 }
 
 .vpravo {
-	padding-left: 30px;
+  padding-left: 30px;
 }
 
 /*Paticka*/
 
 footer {
-	background-color: #303339;
-	
+  background-color: #303339;
 }
 .auprava {
-	padding: 30px 0 30px 0;
-	text-align: center;
-	color: white;
+  padding: 30px 0 30px 0;
+  text-align: center;
+  color: white;
 }
