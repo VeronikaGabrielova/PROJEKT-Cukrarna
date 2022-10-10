@@ -1,7 +1,12 @@
 /* intuitivnější box-sizing pro všechny prvky na stránce */
-html { box-sizing: border-box; }
-*, ::before, ::after { box-sizing: inherit; }
-
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
 
 /*
 	Poznámky:
@@ -28,8 +33,185 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
-
 body {
-	margin: 0;
+  margin: 0;
+  font-family: "Lora", serif;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #242424;
 }
 
+/* HLAVIČKA */
+
+.hlavicka {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.logo-cukrarna {
+  width: 170px;
+  margin: 30px 0 30px 0;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.menu a {
+  padding: 10px 15px;
+  text-decoration: none;
+
+  color: #242424;
+}
+.menu .objednavka {
+  background-color: #f195b2;
+  color: white;
+  border-radius: 20px;
+}
+
+/*--------Hero sekce------------*/
+
+.hero {
+  background-image: url(images/cupcake.jpg);
+  background-size: cover;
+  color: white;
+}
+.centrovani {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.text {
+  padding-right: 40%;
+}
+.nadpisHero {
+  margin-top: 0;
+  padding-top: 80px;
+line-height: 1.25;
+  font-family: "Playfair Display", serif;
+  font-size: 52px;
+}
+
+.textHero {
+  padding-bottom: 80px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-style: italic;
+}
+/*--------Vítejte v naší cukrárně------------*/
+
+.vitejte {
+	background-color: rgb(205, 234, 234);
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.sloupce {
+	display: flex;
+	background-color: white;
+}
+
+.levy {
+	padding-right: 30px;
+	
+	
+}
+.nadpisy2 {
+	font-size: 36px;
+	font-family: "Playfair Display", serif;
+	color: #3e606b;
+	line-height: 1.25;
+
+}
+.odstavec {
+	padding-bottom: 30px;
+}
+
+.tlacitko {
+	color: white;
+	background-color: #f195b2;
+	padding: 15px 40px 15px 40px;
+	text-decoration: none;
+	border-radius: 30px;
+	
+}
+
+.tlacitko:hover,
+.tlacitko:focus {
+	background-color: #d2567d;
+}
+
+.cukrarka {
+	border-radius: 5px;
+}
+
+/*---------Dnešní nabídka------------*/
+
+.pozadi {
+	background-color:#f0f0f0;
+	padding-bottom: 80px;
+}
+
+.nabidka {
+	margin-top: 0;
+	padding-top: 80px;
+	
+}
+.produkty {
+	display: flex;
+	justify-content: space-between;
+}
+.produkt {
+	
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 5px;
+	background-color: white;
+	flex: 0 0 calc((100% - 90px) / 4);
+	
+	
+}
+
+.popis {
+	padding: 20px 0 20px 0;
+	text-align: center;
+	
+}
+
+.fotky {
+	border-radius: 5px 5px 0 0;
+	max-width: 100%;
+	
+}
+
+/*Náš přístup k pečení*/
+.pristup {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.peceni {
+	border-radius: 5px;
+}
+
+.vpravo {
+	padding-left: 30px;
+}
+
+/*Paticka*/
+
+footer {
+	background-color: #303339;
+	
+}
+.auprava {
+	padding: 30px 0 30px 0;
+	text-align: center;
+	color: white;
+}
